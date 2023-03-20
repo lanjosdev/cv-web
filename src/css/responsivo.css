@@ -1,0 +1,7 @@
+@media (max-width: 680px) {
+    .header .bloco2 {
+        text-align: left;
+    
+        position: static;
+    }
+}

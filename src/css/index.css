@@ -1,0 +1,85 @@
+body {
+    background-color: #3a4a4b;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 11pt;
+}
+.principal {
+    background-color: #fff;
+    max-width: 795px;
+    margin: auto;
+}
+spam {
+    font-weight: 700;
+}
+li {
+    margin-left: 35px;
+}
+
+
+
+/* =================== CABEÇALHO =================== */
+.header {
+    background-color: #ced0d4;
+    padding: 35px 35px 0;
+
+    position: relative;
+}
+.header h1 {
+    font-size: 27pt;
+    /* margin-bottom: 0.2cm; */
+}
+
+.header .bloco1, .header .bloco2 {
+    display: inline-block;
+}
+.header .bloco1 {
+    margin-right: 0.5cm;
+}
+.header .bloco2 {
+    text-align: right;
+
+    position: absolute;
+    right: 35px;
+}
+
+.header .section {
+    padding-bottom: 0.5cm;
+    line-height: 1.6;
+}
+/* =================== CABEÇALHO =================== */
+
+
+/* =================== CONTEUDO =================== */
+.conteudo {
+    padding: 0.5cm 35px 0;
+    line-height: 1.6;
+}
+.conteudo .conteudo-secao {
+    padding-bottom: 3em;
+}
+/* =================== CONTEUDO =================== */
+
+
+
+.footer {
+    background-color: #ced0d4;
+    padding: 35px;
+
+    /* display: flex; */
+    /* gap: 50%; */
+}
+
+.footer a {
+    background-color: #2e62cc;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 5px;
+}
+.footer a:active {
+    transform: scale(1.2);
+}
+.footer a:nth-child(2) {
+    background-color: #6b7280;
+    float: right;
+}
