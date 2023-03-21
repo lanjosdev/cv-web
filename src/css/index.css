@@ -67,19 +67,24 @@ li {
 
     /* display: flex; */
     /* gap: 50%; */
+    position: relative;
 }
 
 .footer a {
     background-color: #2e62cc;
+    border: 1px solid #2d61cb;
     text-decoration: none;
     color: #fff;
     padding: 8px 14px;
     border-radius: 5px;
+    
+    display: inline-block;
 }
 .footer a:active {
     transform: scale(1.2);
 }
 .footer a:nth-child(2) {
     background-color: #6b7280;
-    float: right;
+    position: right;
+    right: 35px;
 }
