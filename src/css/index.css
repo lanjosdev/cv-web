@@ -85,6 +85,6 @@ li {
 }
 .footer a:nth-child(2) {
     background-color: #6b7280;
-    position: right;
+    position: absolute;
     right: 35px;
 }
