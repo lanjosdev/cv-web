@@ -83,7 +83,7 @@ li {
 .footer a:active {
     transform: scale(1.2);
 }
-.footer a:nth-child(2) {
+.footer .up {
     background-color: #6b7280;
     position: absolute;
     right: 35px;
